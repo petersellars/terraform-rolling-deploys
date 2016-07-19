@@ -8,11 +8,11 @@ variable "aws_secret_key" {
 
 variable "aws_region" {
   description = "AWS region"
-  default     = "eu-west-1"
+  default     = "ap-southeast-2"
 }
 
 variable "availability_zones" {
-  default = "eu-west-1a,eu-west-1b,eu-west-1c"
+  default = "ap-southeast-2a,ap-southeast-2b,ap-southeast-2c"
   description = "List of availability zones"
 }
 
@@ -59,6 +59,7 @@ variable "amis" {
     us-west-1 = "ami-049d8641"
     us-east-1 = "ami-a6b8e7ce"
     eu-west-1 = "ami-47a23a30"
+    ap-southeast-2 = "ami-69631053"
   }
 }
 
